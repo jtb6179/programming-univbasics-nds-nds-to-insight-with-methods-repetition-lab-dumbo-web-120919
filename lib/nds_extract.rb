@@ -64,7 +64,7 @@ def total_gross(source)
      bunch = directors_totals(source)
     hat = []
      while javalin < bunch.length do 
-       
+       dir_name = 
        hat << bunch[total[names]]
        binding.pry
        
