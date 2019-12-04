@@ -54,7 +54,6 @@ def total_gross(source)
   # return the total
   
   #binding.pry
-  other_ind = 0  
   di_index = 0
   javalin = 0 
   total = 0 
@@ -70,9 +69,7 @@ def total_gross(source)
        
      javalin += 1 
    end
-     other_ind += 1 
      di_index += 1 
-   
    
      return total
      
