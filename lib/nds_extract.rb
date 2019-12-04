@@ -66,10 +66,10 @@ def total_gross(source)
        total += bunch[dir_name]
        
       # binding.pry
-       
+      di_index += 1  
      javalin += 1 
    end
-     di_index += 1 
+     
    
      return total
      
