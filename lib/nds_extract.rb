@@ -65,7 +65,7 @@ def total_gross(source)
     hat = []
      while javalin < bunch.length do 
        
-       hat << bunch[names[total]]
+       hat << bunch[total[names]]
        binding.pry
        
      
