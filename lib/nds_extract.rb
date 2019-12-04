@@ -62,10 +62,10 @@ def total_gross(source)
   while total < source[di_index][:movies][other_ind].length do
      names = list_of_directors(source)
      bunch = directors_totals(source)
-    hat = []
+    
      while javalin < bunch.length do 
        dir_name = names[di_index]
-       hat << bunch[total[names]]
+       total += bunch[dir_name]
        binding.pry
        
      
