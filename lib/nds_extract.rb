@@ -66,9 +66,9 @@ def total_gross(source)
      while javalin < bunch.length do 
        dir_name = names[di_index]
        total += bunch[dir_name]
-       binding.pry
        
-     
+      # binding.pry
+       
      javalin += 1 
    end
      other_ind += 1 
@@ -76,7 +76,7 @@ def total_gross(source)
    end 
    
    
-     return total_added
+     return total
      
 end
 
