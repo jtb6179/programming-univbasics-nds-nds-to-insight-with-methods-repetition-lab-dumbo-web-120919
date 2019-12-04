@@ -61,7 +61,6 @@ def total_gross(source)
   names = list_of_directors(source)
   bunch = directors_totals(source)
     
-  while javalin < names.length do
      
      while javalin < bunch.length do 
        dir_name = names[di_index]
@@ -73,7 +72,6 @@ def total_gross(source)
    end
      other_ind += 1 
      di_index += 1 
-   end 
    
    
      return total
